@@ -138,8 +138,8 @@
   
   Define a class for an n*3 matrix. The constructor of the class must specify n when creating the matrix object so that the matrix is ​​created dynamically. Then          perform the necessary member functions to fill the matrix, display the matrix information, reconstruct the initial matrix from the sparse matrix.
   
-  ![figure 1](https://github.com/nimarasi/Undergraduate_projects/assets/80810639/0d70368f-4c1c-47c9-bb1f-3298bee7bf3b)
-  ![figure 2](https://github.com/nimarasi/Undergraduate_projects/assets/80810639/8f6f3c3f-5067-4a90-8a6c-b4b9bbed5819)
+  ![figure 1](https://github.com/nimarasi/Undergraduate_projects/assets/80810639/b100ec0e-06ac-4b0f-8d3f-6368027bd7b2)
+  ![figure 2](https://github.com/nimarasi/Undergraduate_projects/assets/80810639/e9c87980-c252-4458-bf1d-5cf284a238ed)
 
 
 - final project
@@ -175,7 +175,6 @@
 
   🎯 Shoot the obstacles towards the ship
   
-  Note: It is possible to use any Python module      
-
-  ![figure 3](https://github.com/nimarasi/Undergraduate_projects/assets/80810639/bd6e61ec-b582-4951-b790-a9021045ba82)
-
+  Note: It is possible to use any Python module
+  
+  ![figure 3](https://github.com/nimarasi/Undergraduate_projects/assets/80810639/81481344-2079-4001-a9aa-aad31d38dec1)
