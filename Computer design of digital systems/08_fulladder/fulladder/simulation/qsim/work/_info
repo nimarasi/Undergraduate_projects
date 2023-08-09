@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Digitalprojects\FullAdder\simulation\qsim
+vfull
+Z1 I_aYMJG>zD=;Z<:@7X2>4E0
+Z2 V?Bk5^kJWE9?0>n>]Hdl[g1
+Z3 dC:\Users\Lenovo\Desktop\fulladder\simulation\qsim
+Z4 w1668153354
+Z5 8fulladder.vo
+Z6 Ffulladder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 JeM_H3?>?zR?O@^KBW@mm0
+!s85 0
+Z10 !s108 1668153355.623000
+Z11 !s107 fulladder.vo|
+Z12 !s90 -work|work|fulladder.vo|
+!s101 -O0
+vfull_vlg_check_tst
+!i10b 1
+!s100 B1YRfo2WF31MmN_gG_cc60
+ITXYI27fl9h_]j<EYb1?SD2
+VF2W0c`aUWVh>g:GD;NW^R3
+R3
+Z13 w1668153353
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1668153355.722000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vfull_vlg_sample_tst
+!i10b 1
+!s100 U@Rzbz>XFCFj9njXkS70z3
+IWe_4M>Ij984<0LVMFz4gi1
+V>BgIcB6[2A?9UdAViCZIL0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vfull_vlg_vec_tst
+!i10b 1
+!s100 AdOofak:BXOSj?4>E0YlI0
+IeoPEDR?FP:?kcBkVS7F]@0
+VAEzI7a>Pia:25TI>UH1BT0
+R3
+R13
+R14
+R15
+L0 183
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vFullAdder
+Z19 IdE3a9D_jaSZ=R0_TF1A[W0
+Z20 V_84O<XFGJXg<fMNM3`H>k1
+Z21 dD:\Digitalprojects\FullAdder\simulation\qsim
+Z22 w1666090506
+Z23 8FullAdder.vo
+Z24 FFullAdder.vo
+L0 31
+R7
+r1
+31
+Z25 !s90 -work|work|FullAdder.vo|
+R8
+Z26 n@full@adder
+Z27 !s100 Rb_BS9`cRD33mgSgibHKS1
+Z28 !s108 1666090507.306000
+Z29 !s107 FullAdder.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vFullAdder_vlg_check_tst
+Z30 IjLL`00`9]O?V1hMC_CXU01
+Z31 VfXcX7?30MK8:I0R[V^ifd3
+R21
+Z32 w1666090504
+Z33 8Waveform1.vwf.vt
+Z34 FWaveform1.vwf.vt
+L0 59
+R7
+r1
+31
+Z35 !s108 1666090507.395000
+Z36 !s107 Waveform1.vwf.vt|
+Z37 !s90 -work|work|Waveform1.vwf.vt|
+R8
+Z38 n@full@adder_vlg_check_tst
+Z39 !s100 YlOAC[iQPS_nh35F;:`2>0
+!i10b 1
+!s85 0
+!s101 -O0
+vFullAdder_vlg_sample_tst
+Z40 I19fRgU^H6Z1io?3RogW6a3
+Z41 VNI1daW4NB^gdn8@nK=JLH2
+R21
+R32
+R33
+R34
+L0 29
+R7
+r1
+31
+R35
+R36
+R37
+R8
+Z42 n@full@adder_vlg_sample_tst
+Z43 !s100 3?8hUNz6_07Cd8ziAekn@0
+!i10b 1
+!s85 0
+!s101 -O0
+vFullAdder_vlg_vec_tst
+Z44 I=7MoK4k8ij4LA9b^Mm7eB2
+Z45 V]<3@QoABVjl5_[FYU:^O:1
+R21
+R32
+R33
+R34
+Z46 L0 181
+R7
+r1
+31
+R35
+R36
+R37
+R8
+Z47 n@full@adder_vlg_vec_tst
+Z48 !s100 LSS_c7Z97m5^fM>cb4zhL0
+!i10b 1
+!s85 0
+!s101 -O0

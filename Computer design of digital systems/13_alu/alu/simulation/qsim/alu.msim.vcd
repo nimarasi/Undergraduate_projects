@@ -1,0 +1,442 @@
+$comment
+	File created using the following command:
+		vcd file alu.msim.vcd -direction
+$end
+$date
+	Sun Jan 01 23:38:42 2023
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module ALU_vlg_vec_tst $end
+$var reg 4 ! a [3:0] $end
+$var reg 4 " b [3:0] $end
+$var reg 1 # c $end
+$var reg 8 $ i [7:0] $end
+$var reg 2 % sel [1:0] $end
+$var wire 1 & result [7] $end
+$var wire 1 ' result [6] $end
+$var wire 1 ( result [5] $end
+$var wire 1 ) result [4] $end
+$var wire 1 * result [3] $end
+$var wire 1 + result [2] $end
+$var wire 1 , result [1] $end
+$var wire 1 - result [0] $end
+$var wire 1 . sampler $end
+$scope module i1 $end
+$var wire 1 / gnd $end
+$var wire 1 0 vcc $end
+$var wire 1 1 unknown $end
+$var tri1 1 2 devclrn $end
+$var tri1 1 3 devpor $end
+$var tri1 1 4 devoe $end
+$var wire 1 5 result[0]~output_o $end
+$var wire 1 6 result[1]~output_o $end
+$var wire 1 7 result[2]~output_o $end
+$var wire 1 8 result[3]~output_o $end
+$var wire 1 9 result[4]~output_o $end
+$var wire 1 : result[5]~output_o $end
+$var wire 1 ; result[6]~output_o $end
+$var wire 1 < result[7]~output_o $end
+$var wire 1 = a[0]~input_o $end
+$var wire 1 > a[1]~input_o $end
+$var wire 1 ? i[1]~input_o $end
+$var wire 1 @ alu4|Add6~0_combout $end
+$var wire 1 A a[3]~input_o $end
+$var wire 1 B a[2]~input_o $end
+$var wire 1 C i[7]~input_o $end
+$var wire 1 D alu4|Add0~1 $end
+$var wire 1 E alu4|Add0~2_combout $end
+$var wire 1 F alu4|LessThan2~0_combout $end
+$var wire 1 G alu4|LessThan0~0_combout $end
+$var wire 1 H alu4|Add0~9_combout $end
+$var wire 1 I alu4|Add0~0_combout $end
+$var wire 1 J alu4|Add0~10_combout $end
+$var wire 1 K i[6]~input_o $end
+$var wire 1 L alu4|Add1~1 $end
+$var wire 1 M alu4|Add1~4 $end
+$var wire 1 N alu4|Add1~5_combout $end
+$var wire 1 O alu4|LessThan1~2_combout $end
+$var wire 1 P alu4|Add0~3 $end
+$var wire 1 Q alu4|Add0~5 $end
+$var wire 1 R alu4|Add0~6_combout $end
+$var wire 1 S alu4|LessThan1~1_combout $end
+$var wire 1 T alu4|Add0~4_combout $end
+$var wire 1 U alu4|LessThan1~0_combout $end
+$var wire 1 V alu4|LessThan1~3_combout $end
+$var wire 1 W alu4|Add0~8_combout $end
+$var wire 1 X alu4|Add1~6 $end
+$var wire 1 Y alu4|Add1~7_combout $end
+$var wire 1 Z alu4|LessThan2~3_combout $end
+$var wire 1 [ alu4|Add1~0_combout $end
+$var wire 1 \ alu4|Add1~2_combout $end
+$var wire 1 ] i[5]~input_o $end
+$var wire 1 ^ alu4|LessThan2~1_combout $end
+$var wire 1 _ alu4|LessThan2~2_combout $end
+$var wire 1 ` alu4|Add1~3_combout $end
+$var wire 1 a alu4|Add1~9_combout $end
+$var wire 1 b alu4|LessThan2~4_combout $end
+$var wire 1 c alu4|Add1~10_combout $end
+$var wire 1 d alu4|Add2~1 $end
+$var wire 1 e alu4|Add2~3 $end
+$var wire 1 f alu4|Add2~5 $end
+$var wire 1 g alu4|Add2~6_combout $end
+$var wire 1 h alu4|Add2~4_combout $end
+$var wire 1 i alu4|Add2~8_combout $end
+$var wire 1 j alu4|Add2~2_combout $end
+$var wire 1 k alu4|Add2~10_combout $end
+$var wire 1 l alu4|Add2~0_combout $end
+$var wire 1 m alu4|Add2~9_combout $end
+$var wire 1 n i[4]~input_o $end
+$var wire 1 o alu4|LessThan3~0_combout $end
+$var wire 1 p alu4|LessThan3~1_combout $end
+$var wire 1 q alu4|LessThan3~2_combout $end
+$var wire 1 r alu4|LessThan3~3_combout $end
+$var wire 1 s alu4|Add3~1 $end
+$var wire 1 t alu4|Add3~3_combout $end
+$var wire 1 u alu4|Add3~10_combout $end
+$var wire 1 v alu4|Add3~0_combout $end
+$var wire 1 w alu4|Add3~2_combout $end
+$var wire 1 x i[3]~input_o $end
+$var wire 1 y alu4|LessThan4~1_combout $end
+$var wire 1 z alu4|LessThan4~2_combout $end
+$var wire 1 { alu4|Add3~4 $end
+$var wire 1 | alu4|Add3~6 $end
+$var wire 1 } alu4|Add3~8_combout $end
+$var wire 1 ~ alu4|LessThan4~0_combout $end
+$var wire 1 !! alu4|Add3~5_combout $end
+$var wire 1 "! alu4|Add3~7_combout $end
+$var wire 1 #! alu4|LessThan4~3_combout $end
+$var wire 1 $! alu4|Add4~1 $end
+$var wire 1 %! alu4|Add4~3 $end
+$var wire 1 &! alu4|Add4~6_combout $end
+$var wire 1 '! alu4|Add4~8_combout $end
+$var wire 1 (! alu4|Add4~2_combout $end
+$var wire 1 )! alu4|Add4~4_combout $end
+$var wire 1 *! alu4|Add4~0_combout $end
+$var wire 1 +! alu4|Add4~5_combout $end
+$var wire 1 ,! i[2]~input_o $end
+$var wire 1 -! alu4|LessThan5~1_combout $end
+$var wire 1 .! alu4|LessThan5~2_combout $end
+$var wire 1 /! alu4|Add4~7 $end
+$var wire 1 0! alu4|Add4~9_combout $end
+$var wire 1 1! alu4|LessThan5~0_combout $end
+$var wire 1 2! alu4|LessThan5~3_combout $end
+$var wire 1 3! alu4|Add5~1 $end
+$var wire 1 4! alu4|Add5~3 $end
+$var wire 1 5! alu4|Add5~5 $end
+$var wire 1 6! alu4|Add5~7_combout $end
+$var wire 1 7! alu4|LessThan6~0_combout $end
+$var wire 1 8! alu4|Add5~4_combout $end
+$var wire 1 9! alu4|Add5~6_combout $end
+$var wire 1 :! alu4|Add5~0_combout $end
+$var wire 1 ;! alu4|Add5~10_combout $end
+$var wire 1 <! alu4|LessThan6~1_combout $end
+$var wire 1 =! alu4|Add5~2_combout $end
+$var wire 1 >! alu4|Add5~9_combout $end
+$var wire 1 ?! alu4|LessThan6~2_combout $end
+$var wire 1 @! alu4|LessThan6~3_combout $end
+$var wire 1 A! alu4|LessThan7~2_combout $end
+$var wire 1 B! i[0]~input_o $end
+$var wire 1 C! alu4|LessThan7~3_combout $end
+$var wire 1 D! alu4|Add6~1 $end
+$var wire 1 E! alu4|Add6~3 $end
+$var wire 1 F! alu4|Add6~4_combout $end
+$var wire 1 G! alu4|LessThan7~4_combout $end
+$var wire 1 H! alu4|Add6~5 $end
+$var wire 1 I! alu4|Add6~6_combout $end
+$var wire 1 J! alu4|LessThan7~5_combout $end
+$var wire 1 K! alu4|LessThan7~1_combout $end
+$var wire 1 L! alu4|Add6~2_combout $end
+$var wire 1 M! alu4|LessThan7~0_combout $end
+$var wire 1 N! Mux7~2_combout $end
+$var wire 1 O! c~input_o $end
+$var wire 1 P! sel[1]~input_o $end
+$var wire 1 Q! b[0]~input_o $end
+$var wire 1 R! Mux7~0_combout $end
+$var wire 1 S! alu4|Add6~9_combout $end
+$var wire 1 T! sel[0]~input_o $end
+$var wire 1 U! alu4|Add6~8_combout $end
+$var wire 1 V! alu4|LessThan7~6_combout $end
+$var wire 1 W! Mux7~3_combout $end
+$var wire 1 X! Mux7~4_combout $end
+$var wire 1 Y! Mux7~1_combout $end
+$var wire 1 Z! Mux7~5_combout $end
+$var wire 1 [! b[1]~input_o $end
+$var wire 1 \! Mux6~1_combout $end
+$var wire 1 ]! Mux6~2_combout $end
+$var wire 1 ^! alu1|fa1|cout~0_combout $end
+$var wire 1 _! alu2|fs1|bout~0_combout $end
+$var wire 1 `! Mux6~0_combout $end
+$var wire 1 a! Mux6~3_combout $end
+$var wire 1 b! alu1|fa2|cout~0_combout $end
+$var wire 1 c! alu2|fs2|bout~0_combout $end
+$var wire 1 d! Mux5~1_combout $end
+$var wire 1 e! alu3|cell_1|fa2|ha2|s~4_combout $end
+$var wire 1 f! alu3|cell_1|fa2|ha2|s~5_combout $end
+$var wire 1 g! b[2]~input_o $end
+$var wire 1 h! Mux5~0_combout $end
+$var wire 1 i! Mux5~2_combout $end
+$var wire 1 j! alu1|fa3|cout~0_combout $end
+$var wire 1 k! alu2|fs3|bout~0_combout $end
+$var wire 1 l! Mux4~0_combout $end
+$var wire 1 m! b[3]~input_o $end
+$var wire 1 n! Mux4~1_combout $end
+$var wire 1 o! alu3|cell_1|fa2|cout~3_combout $end
+$var wire 1 p! alu3|cell_1|fa2|cout~9_combout $end
+$var wire 1 q! alu3|cell_1|fa3|ha2|s~combout $end
+$var wire 1 r! alu3|cell_2|fa2|ha2|s~combout $end
+$var wire 1 s! Mux4~2_combout $end
+$var wire 1 t! Mux4~3_combout $end
+$var wire 1 u! alu2|fs4|bout~0_combout $end
+$var wire 1 v! alu1|fa3|cout~1_combout $end
+$var wire 1 w! alu3|cell_2|fa2|cout~0_combout $end
+$var wire 1 x! alu3|cell_1|fa3|cout~0_combout $end
+$var wire 1 y! alu3|cell_2|fa3|ha2|s~combout $end
+$var wire 1 z! alu3|cell_3|fa2|ha2|s~combout $end
+$var wire 1 {! alu1|fa4|cout~0_combout $end
+$var wire 1 |! Mux3~0_combout $end
+$var wire 1 }! Mux3~1_combout $end
+$var wire 1 ~! alu3|cell_3|fa2|cout~0_combout $end
+$var wire 1 !" alu3|cell_2|fa4|ha1|s~combout $end
+$var wire 1 "" alu3|cell_2|fa3|cout~0_combout $end
+$var wire 1 #" alu3|cell_3|fa3|ha2|s~combout $end
+$var wire 1 $" Mux2~0_combout $end
+$var wire 1 %" alu3|cell_2|fa4|cout~0_combout $end
+$var wire 1 &" alu3|cell_3|fa3|cout~0_combout $end
+$var wire 1 '" alu3|cell_3|fa4|ha2|s~0_combout $end
+$var wire 1 (" Mux1~0_combout $end
+$var wire 1 )" alu3|cell_3|fa4|cout~0_combout $end
+$var wire 1 *" Mux0~0_combout $end
+$var wire 1 +" alu3|G0 [3] $end
+$var wire 1 ," alu3|G0 [2] $end
+$var wire 1 -" alu3|G0 [1] $end
+$var wire 1 ." alu3|G0 [0] $end
+$var wire 1 /" alu3|G1 [3] $end
+$var wire 1 0" alu3|G1 [2] $end
+$var wire 1 1" alu3|G1 [1] $end
+$var wire 1 2" alu3|G1 [0] $end
+$var wire 1 3" alu3|G2 [3] $end
+$var wire 1 4" alu3|G2 [2] $end
+$var wire 1 5" alu3|G2 [1] $end
+$var wire 1 6" alu3|G2 [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 !
+b0 "
+0#
+b11010000 $
+b11 %
+0V
+0W
+0X
+1Y
+0Z
+1[
+1\
+0]
+0^
+1_
+0`
+1a
+1b
+0c
+1d
+0e
+1f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+1n
+1o
+1p
+1q
+1r
+1s
+1t
+0u
+1v
+1w
+0x
+0y
+1z
+1{
+0|
+1}
+0~
+0!!
+0"!
+1#!
+1$!
+0%!
+1&!
+0'!
+0(!
+1)!
+0*!
+0+!
+0,!
+1-!
+1.!
+0/!
+10!
+01!
+12!
+13!
+0-
+1,
+0+
+0*
+0)
+1(
+0'
+0&
+x.
+0/
+10
+x1
+12
+13
+14
+05
+16
+07
+08
+09
+1:
+0;
+0<
+0=
+1>
+0?
+0@
+0A
+1B
+1C
+1D
+1E
+0F
+1G
+0H
+1I
+1J
+1K
+1L
+0M
+1N
+1O
+1P
+0Q
+1R
+0S
+0T
+0U
+14!
+05!
+16!
+07!
+18!
+19!
+0:!
+0;!
+1<!
+1=!
+0>!
+1?!
+0@!
+1A!
+0B!
+0C!
+1D!
+1E!
+0F!
+0G!
+0H!
+0I!
+1J!
+1K!
+1L!
+0M!
+0N!
+0O!
+1P!
+0Q!
+0R!
+1S!
+1T!
+0U!
+0V!
+1W!
+1X!
+0Y!
+0Z!
+0[!
+0\!
+0]!
+0^!
+0_!
+1`!
+1a!
+0b!
+0c!
+1d!
+0e!
+0f!
+0g!
+0h!
+0i!
+0j!
+0k!
+1l!
+0m!
+0n!
+1o!
+0p!
+0q!
+0r!
+0s!
+0t!
+0u!
+0v!
+0w!
+0x!
+0y!
+0z!
+0{!
+1|!
+0}!
+0~!
+0!"
+0""
+0#"
+1$"
+0%"
+0&"
+0'"
+0("
+0)"
+0*"
+z."
+z-"
+0,"
+0+"
+02"
+01"
+z0"
+0/"
+06"
+05"
+04"
+z3"
+$end
+#1000000

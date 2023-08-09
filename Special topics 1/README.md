@@ -1,0 +1,3 @@
+# Special topics 1
+  
+  In this course, a questionnaire was given to all the people in our class, a small data set was created by this questionnaire, and based on this data set, we had to    cluster people based on their interests. The number of questions is 60 questions, named Q1 to Q60. have became. It should be noted that due to the nominal nature      of the answers to questions Q1 to Q20, they are named as Q1-a, Q1-b, etc., and the number of records in this data set is 30 people.

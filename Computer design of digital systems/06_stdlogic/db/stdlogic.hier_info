@@ -1,0 +1,7 @@
+|bu
+a => x.IN0
+b => x.IN1
+oe => y.OE
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

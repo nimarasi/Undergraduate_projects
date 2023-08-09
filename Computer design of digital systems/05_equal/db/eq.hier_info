@@ -1,0 +1,12 @@
+|eq
+a[0] => o.IN0
+a[1] => o.IN0
+a[2] => o.IN0
+a[3] => o.IN0
+b[0] => o.IN1
+b[1] => o.IN1
+b[2] => o.IN1
+b[3] => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}art{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'art_app/styles/base.css' %}">
+    {% block site_css %}  {% endblock %}
+ </head>
+ <body>
+    <header id="main-header">
+      <a id="main-logo">{% block main_heading %}{% endblock  %} </a>
+      <h1>{% block header_content %}{% endblock %}</h1>
+      {% block paragraph%}{% endblock %}
+    </header>
+    <main>
+        {% block body %}{% endblock %}
+    </main>
+ </body>
+ </html>

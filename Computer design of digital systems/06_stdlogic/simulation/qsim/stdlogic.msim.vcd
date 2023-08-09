@@ -1,0 +1,132 @@
+$comment
+	File created using the following command:
+		vcd file stdlogic.msim.vcd -direction
+$end
+$date
+	Thu Nov 10 18:26:41 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module bu_vlg_vec_tst $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # oe $end
+$var wire 1 $ y $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , y~output_o $end
+$var wire 1 - a~input_o $end
+$var wire 1 . b~input_o $end
+$var wire 1 / x~combout $end
+$var wire 1 0 oe~input_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+1,
+0-
+0.
+1/
+00
+$end
+#60000
+1!
+1-
+0%
+#140000
+1"
+1.
+1%
+0/
+0,
+0$
+#180000
+0!
+0-
+0%
+1/
+1,
+1$
+#200000
+1#
+10
+1%
+z,
+z$
+#220000
+0"
+0.
+0%
+#280000
+0#
+00
+1%
+1,
+1$
+#460000
+1!
+1-
+0%
+#580000
+1"
+1.
+1%
+0/
+0,
+0$
+#620000
+0!
+0-
+0%
+1/
+1,
+1$
+#680000
+0"
+0.
+1%
+#740000
+1"
+1.
+0%
+#760000
+1!
+1-
+1%
+0/
+0,
+0$
+#820000
+0"
+0.
+0%
+1/
+1,
+1$
+#940000
+0!
+0-
+1%
+#1000000

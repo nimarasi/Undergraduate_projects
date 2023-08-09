@@ -1,0 +1,14 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux is 
+port(a,b:in bit_vector(3 downto 0);
+		s:in bit;
+		o:in bit_vector(3 downto 0));
+end mux;
+
+architecture data of mux is
+
+begin
+o <= a when s='0' else b;
+end data;

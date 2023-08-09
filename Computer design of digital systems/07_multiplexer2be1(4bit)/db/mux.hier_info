@@ -1,0 +1,19 @@
+|mux
+a[0] => o.DATAB
+a[1] => o.DATAB
+a[2] => o.DATAB
+a[3] => o.DATAB
+b[0] => o.DATAA
+b[1] => o.DATAA
+b[2] => o.DATAA
+b[3] => o.DATAA
+s => o.OUTPUTSELECT
+s => o.OUTPUTSELECT
+s => o.OUTPUTSELECT
+s => o.OUTPUTSELECT
+o[0] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+

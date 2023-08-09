@@ -1,0 +1,227 @@
+$comment
+	File created using the following command:
+		vcd file binary2graycode.msim.vcd -direction
+$end
+$date
+	Fri Nov 11 12:56:52 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module b2g_vlg_vec_tst $end
+$var reg 4 ! b [3:0] $end
+$var wire 1 " g [3] $end
+$var wire 1 # g [2] $end
+$var wire 1 $ g [1] $end
+$var wire 1 % g [0] $end
+$var wire 1 & sampler $end
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - g[0]~output_o $end
+$var wire 1 . g[1]~output_o $end
+$var wire 1 / g[2]~output_o $end
+$var wire 1 0 g[3]~output_o $end
+$var wire 1 1 b[1]~input_o $end
+$var wire 1 2 b[0]~input_o $end
+$var wire 1 3 g~0_combout $end
+$var wire 1 4 b[2]~input_o $end
+$var wire 1 5 g~1_combout $end
+$var wire 1 6 b[3]~input_o $end
+$var wire 1 7 g~2_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0%
+0$
+0#
+0"
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+$end
+#100000
+b1 !
+12
+0&
+13
+1-
+1%
+#160000
+b0 !
+02
+1&
+03
+0-
+0%
+#180000
+b10 !
+11
+0&
+15
+13
+1.
+1-
+1$
+1%
+#240000
+b0 !
+01
+1&
+05
+03
+0.
+0-
+0$
+0%
+#300000
+b1 !
+b11 !
+12
+11
+0&
+15
+1.
+1$
+#340000
+b10 !
+b0 !
+02
+01
+1&
+05
+0.
+0$
+#380000
+b100 !
+14
+0&
+17
+15
+1/
+1.
+1#
+1$
+#460000
+b0 !
+04
+1&
+07
+05
+0/
+0.
+0#
+0$
+#520000
+b1 !
+b101 !
+12
+14
+0&
+13
+17
+15
+1-
+1/
+1.
+1%
+1#
+1$
+#580000
+b100 !
+b0 !
+02
+04
+1&
+03
+07
+05
+0-
+0/
+0.
+0%
+0#
+0$
+#660000
+b10 !
+b110 !
+11
+14
+0&
+13
+17
+1-
+1/
+1%
+1#
+#720000
+b100 !
+b0 !
+01
+04
+1&
+03
+07
+0-
+0/
+0%
+0#
+#820000
+b1 !
+b11 !
+b111 !
+12
+11
+14
+0&
+17
+1/
+1#
+#880000
+b110 !
+b100 !
+b0 !
+02
+01
+04
+1&
+07
+0/
+0#
+#940000
+b1 !
+b11 !
+b111 !
+12
+11
+14
+0&
+17
+1/
+1#
+#1000000

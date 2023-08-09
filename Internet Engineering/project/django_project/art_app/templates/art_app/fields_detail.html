@@ -1,0 +1,35 @@
+{% extends 'art_app/base/base.html' %}
+
+{% load static %}
+
+{% block title %}details of art field{% endblock %}
+
+{% block site_css %}
+ <link rel="stylesheet" href="{% static 'art_app/styles/field-detail.css' %}">
+{% endblock %}
+
+{% block main_heading %}
+{{ field_title }}
+{% endblock%}
+
+
+
+
+{% block body %}
+<main>
+    <article>
+        <img src="{{ field_img }}" alt="">
+        <section id="location">
+            <h2>{{ field_celebrity }}</h2>
+            <address> {{ field_description }} </address>
+        </section>
+</main>
+{% endblock%}
+
+
+
+
+
+
+
+

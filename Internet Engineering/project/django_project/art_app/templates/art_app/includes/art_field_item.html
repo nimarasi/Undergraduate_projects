@@ -1,0 +1,19 @@
+<li class="art-item">
+   <article>
+      <div class="art-details">
+            <h3>{{ title }}</h3>
+      </div>
+      <div class="art-item">
+         <div class="art-image">
+            <img src="{{ img }}" alt="">
+         </div>  
+         {{ text }}
+      </div>
+      <div class="art-actions">
+         <a href="{% url 'field-detail' slug %}" class="btn">more detail</a>
+      </div>
+   </article>
+
+</li>
+
+

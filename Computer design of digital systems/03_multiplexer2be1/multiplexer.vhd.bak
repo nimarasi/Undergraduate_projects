@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux is
+port (a,b,s:in bit;
+		o:out bit);
+end mux;
+
+architecture data of mux is
+signal o1,o2:bit;
+begin
+	o1 <= a and not(x);
+	o2 <= b and s;
+	o <= o1 or o2;
+end data;

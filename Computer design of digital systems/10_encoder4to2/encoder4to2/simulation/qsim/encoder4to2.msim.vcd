@@ -1,0 +1,110 @@
+$comment
+	File created using the following command:
+		vcd file encoder4to2.msim.vcd -direction
+$end
+$date
+	Fri Nov 11 12:25:16 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module encoder_vlg_vec_tst $end
+$var reg 4 ! x [3:0] $end
+$var wire 1 " y0 $end
+$var wire 1 # y1 $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + y0~output_o $end
+$var wire 1 , y1~output_o $end
+$var wire 1 - x[2]~input_o $end
+$var wire 1 . x[0]~input_o $end
+$var wire 1 / x[1]~input_o $end
+$var wire 1 0 x[3]~input_o $end
+$var wire 1 1 y0~0_combout $end
+$var wire 1 2 y1~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 !
+0"
+0#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+1.
+0/
+00
+11
+02
+$end
+#60000
+b0 !
+0.
+0$
+#140000
+b10 !
+1/
+1$
+12
+1,
+1#
+#200000
+b0 !
+0/
+0$
+02
+0,
+0#
+#280000
+b100 !
+1-
+1$
+01
+1+
+1"
+#360000
+b0 !
+0-
+0$
+11
+0+
+0"
+#420000
+b1000 !
+10
+1$
+01
+12
+1+
+1,
+1"
+1#
+#480000
+b0 !
+00
+0$
+11
+02
+0+
+0,
+0"
+0#
+#1000000

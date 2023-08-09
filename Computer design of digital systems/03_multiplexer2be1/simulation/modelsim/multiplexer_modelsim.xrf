@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, mux
+source_file = 1, C:/Users/Lenovo/Desktop/multiplexer/multiplexer.vhd
+source_file = 1, C:/Users/Lenovo/Desktop/multiplexer/db/multiplexer.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = mux
+instance = comp, \o~output\, o~output, mux, 1
+instance = comp, \b~input\, b~input, mux, 1
+instance = comp, \s~input\, s~input, mux, 1
+instance = comp, \a~input\, a~input, mux, 1
+instance = comp, \o~0\, o~0, mux, 1

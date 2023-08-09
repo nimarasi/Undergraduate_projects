@@ -1,0 +1,40 @@
+{% extends 'art_app/base/base.html' %}
+
+{% load static %}
+
+{% block title %}List of art fields{% endblock %}
+
+{% block site_css %}
+ <link rel="stylesheet" href="{% static 'art_app/styles/art_field_items.css'%}">
+{% endblock %}
+
+
+{% block main_heading%}
+List of art fields
+{% endblock%}
+
+
+
+{% block header_content %}
+<h1>
+   some people feels art some of them understand
+   but there is a few people who feels and understands at the same time.
+</h1>
+{% endblock%}
+
+{% block paragraph%}
+<p>"pete hollard"</p>
+<hr>
+{% endblock%}
+
+{% block body %}
+<section>
+   <h2>List of art fields</h2>
+   <ol>
+      {% for art_field_items in art_fields %}
+         {% include 'art_app/includes/art_field_item.html' with title=art_field_items.title slug=art_field_items.slug text=art_field_items.text img=art_field_items.img %}
+      {% endfor %}
+   </ol>
+
+</section>
+{% endblock%}
