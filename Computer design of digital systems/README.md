@@ -1,7 +1,7 @@
 # Computer design of digital systems
   In this course we have done some projects in Quartus simulation environment. <br>
   So if yo want to run projects first of all you should download and install Proteus Simulator from link below. <br>
-  [ more details: [https://www.labcenter.com/downloads/](https://www.intel.com/content/www/us/en/software-kit/666221/intel-quartus-ii-web-edition-design-software-       version-13-1-for-windows.html) ] <br>
+  [ more details: https://www.intel.com/content/www/us/en/software-kit/666221/intel-quartus-ii-web-edition-design-software-version-13-1-for-windows.html ] <br>
 
   List of projects : 
   1.  Half Adder
